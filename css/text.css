@@ -1,0 +1,217 @@
+
+
+ .nav-brand a{
+ 	} 
+.nav-brand a {
+  color: white;
+}
+
+.nav-brand a span {
+  color: #05f7ff;
+}
+
+/*typer writer*/
+.text-typer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+}
+.text-typer h1{
+  font-weight: 60;
+  margin: 0.4rem;
+  font-size: 1.5rem;
+  color: cyan;
+
+}
+.text-typer span{
+  color: #aaa;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+.welcome_header{
+
+}
+
+
+/*CONTACT FORM*/
+.btn{
+   border: none;
+    border-radius: 5px;
+    padding: 5px;
+    /*font-size: 1px;*/
+    font-family: var(--Livvic);
+    cursor: pointer;
+     background:var(--green);
+  color:#fff;
+}
+.contact_form{
+  width: 100%;
+  padding:1rem 2%;
+}
+.form_title h1 {
+    font-size: 1rem;
+  text-transform: uppercase;
+
+}
+.form_title{
+  color: var(--green);
+}
+.form_title span{
+  color: var(--black);
+
+}
+.messaging form{
+  margin: 5px;
+  padding: 10px;
+}
+.messaging form .lineup_form{
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+}
+.messaging form .lineup_form input, .messaging form textarea{
+  padding:5px;
+  text-transform: none;
+  margin:1rem 0;
+  width: 59%;
+  border: none;
+  background:#f1f1f1;
+}
+
+.messaging form textarea{
+  height: 10rem;
+  resize: none;
+  width: 100%;
+}
+
+.grid_two{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 100%; 
+}
+.addreser h2{
+  margin-left: 80px;
+  margin-top: -10px;
+
+  
+}
+.addreser{
+  margin-left: 120px;
+}
+.adress1{
+}
+.adress1 a{
+  color: cyan;
+}
+.adress1 ul li{
+  padding: 5px;
+}
+.email_signUp h3{
+color: var(--midnight);
+}
+.email_signUp{
+
+   text-align: center;
+
+}
+.signUpNow{
+ border: none;
+width: 50%;
+border:.1rem solid rgba(0,0,0,.3);
+text-transform: none;
+padding: 3px;
+}
+.singup_button{
+
+ border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+     background:var(--green);
+  color:#fff;
+}
+
+/*IAMGE*/
+.intro p{
+  color: white;
+  font-size: 2rem;
+  font-family:var(--Livvic);
+  font-weight: bold;
+}
+.img_txt{
+  color: #fff;
+}
+.center_img{
+  width: 100%;
+  /*height: 100px;*/
+  margin-left: 10%;
+}
+/*IMAGE*/
+
+
+
+
+
+
+
+/*MEDIA QUERRIES*/
+@media(min-width: 1200px) {
+  .text-typer h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media(max-width: 800px) {
+  .text-typer {
+    padding: 0 1.5rem;
+  }
+
+ .text-typer  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width:768px){
+.grid_two
+{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.center_img {
+  /*margin-right: 20px;*/
+  /*width: 100px;*/
+   width: 80% !important;
+  /*height: 100px;*/
+  /*margin-left: 0;*/
+}
+
+.addreser{
+  margin-left: 0;
+}
+.email_signUp{
+  display: initial;
+}
+.messaging form .lineup_form{
+  flex-direction: column;
+  width: 100%;
+}
+.messaging form textarea{
+  width: 90%;
+}
+
+}
+
+@media(max-width: 500px) {
+  .text-typer h1 {
+    font-size: 1.5rem;
+  }
+}
+
